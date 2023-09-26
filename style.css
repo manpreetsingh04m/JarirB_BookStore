@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Tajawal', sans-serif;
+  color: #273444;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.topbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.topbar1{
+  display: flex;
+  margin-left: 500px;
+}
+#lang{
+  margin-top: 13px;
+  margin-left: 50px;
+}
+#logo{
+width: 250px;
+margin-left: 30px;
+margin-top: 20px;
+background-color: #FEFEFE;
+}
+.heading{
+  display: flex;
+}
+#preference{
+margin-left: 90px;
+  margin-top: 35px;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 12px;
+  height: 35px;
+  
+}
+#search{
+  margin-left: 40px;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 12px;
+  height: 35px;
+  font-size: 14px;
+}
+#category{
+  margin-left: 40px;
+  border-radius: 20px;
+  width: 250px;
+  font-size: 12px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+}
+#brand{
+  margin-left: 40px;
+  border-radius: 20px;
+  width: 120px;
+  font-size: 12px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+}
+#iphone{
+  display: flex;
+    margin-top: 47px;
+    margin-left: 148px;
+    width: 1201px;
+    height: 400px;
+}
+.user{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.user i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.wishlist{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.wishlist i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.track{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.track i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.service{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.service i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.help{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.help i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+.location{
+  font-family: 'Tajawal', sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.location i{
+  margin-top: 13px;
+  margin-right: 10px;
+}
+#glass{
+  position: absolute;
+  margin-top: 51px;
+  margin-left: -33px;
+}
+
+#cart{
+  margin-left: 40px;
+}
+.school{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  display: flex;
+  font-size: 20px;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-left: 152px;
+}
+#school1{
+  display: flex;
+width: 1200px;
+margin-top: 50px;
+align-self: center;
+}
+#school2{
+  display: flex;
+width: 1200px;
+margin-top: 50px;
+align-self: center;
+}
+.categories{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.width{
+  width: 135px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#percent{
+  width: 20px;
+  margin-right: 10px;
+}
+#offer{
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fire{
+  width: 20px;
+  margin-right: 10px;
+}
+#arrival{
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#trend{
+  width: 20px;
+  margin-right: 10px;
+}
+#trending{
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#renew{
+  width: 20px;
+  margin-right: 10px;
+}
+#product{
+  width: 250px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colourbutton{
+background-color: white;
+border-radius: 15px;
+border: 1px white;
+border-style: ridge;
+cursor: pointer;
+}
+.brand{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizing{
+  width: 125px;
+}
+#watch-ultra-cont{
+  border: 2px solid grey;
+  width: 220px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watch-ultra-image{
+  width: 150px;
+  margin-top: 20px;
+
+}
+.watch-ultra-text{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  padding: 10px;
+}
+.watch-ultra-text p{
+  font-weight: bolder;
+}
+.watch-ultra-span{
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.watch-ultra-span1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.watch-ultra-span2{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.watch-ultra-span3{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 140px;
+  color: #3B4858;
+}
+#apple-logo{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: -170px;
+
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px 5px grey;
+  padding: 25px;
+}
+#lg-cont{
+  border: 2px solid grey;
+  width: 220px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lg-image{
+  width: 150px;
+  margin-top: 20px;
+}
+#lg-logo{
+  width: 12px;
+  position: absolute;
+  margin-left: -147px;
+  margin-top: 177px;
+}
+.lg-text{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  padding: 10px;
+}
+.lg-span{
+  display: flexbox;
+  flex-wrap: wrap;
+  
+}
+.lg-span1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.lg-span2{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.lg-span3{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.lg-span4{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.lg-span5{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+#Asus-cont{
+  border: 2px solid grey;
+  width: 220px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.asus-image{
+  width: 150px;
+  margin-top: 20px;
+}
+#asus-logo{
+  width: 27px;
+  position: absolute;
+  margin-left: -147px;
+  margin-top: 177px;
+}
+.asus-span{
+  display: flexbox;
+  flex-wrap: wrap;
+}
+.asus-span1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.asus-span2{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.asus-span3{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.asus-span4{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+#sam-cont{
+  border: 2px solid grey;
+  width: 220px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sam-image{
+  width: 150px;
+  margin-top: 20px;
+}
+#sam-logo{
+  width: 27px;
+  position: absolute;
+  margin-left: -147px;
+  margin-top: 177px;
+}
+.sam-span{
+  display: flexbox;
+  flex-wrap: wrap;
+}
+.sam-span1{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.sam-span2{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.sam-span3{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
+.sam-span4{
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+  color: #3B4858;
+}
