@@ -9,56 +9,58 @@ body{
   font-weight: 400;
   font-family: 'Tajawal', sans-serif;
   color: #273444;
-  width: 100%;
   margin: 0%
 }
 .header{
-  width: 100%;
+  width: 96%;
   display: flex;
   flex-direction: row;
+  margin-top: 10px;
 }
 .topbar{
   display: flex;
-  width: 100%;
+  width: 99%;
   justify-content: space-around;
+  margin-left: 120px;
 }
 .topbar1{
   display: flex;
-  margin-left: 500px;
+  margin-left: 450px;
+
 }
 #lang{
   margin-top: 13px;
   margin-left: 50px;
 }
 #logo{
-width: 250px;
-margin-left: 30px;
+width: 240px;
+margin-left: 120px;
 margin-top: 20px;
 background-color: #FEFEFE;
 }
 .heading{
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #preference{
-margin-left: 90px;
+margin-left: 40px;
   margin-top: 35px;
-  border-radius: 20px;
+  border-radius: 30px;
   width: 250px;
   font-size: 12px;
   height: 35px;
   
 }
 #search{
-  margin-left: 40px;
-  border-radius: 20px;
+  margin-left: 30px;
+  border-radius: 30px;
   width: 250px;
   font-size: 12px;
   height: 35px;
   font-size: 14px;
 }
 #category{
-  margin-left: 40px;
+  margin-left: 30px;
   border-radius: 20px;
   width: 250px;
   font-size: 12px;
@@ -68,7 +70,7 @@ margin-left: 90px;
   color: black;
 }
 #brand{
-  margin-left: 40px;
+  margin-left: 35px;
   border-radius: 20px;
   width: 120px;
   font-size: 12px;
@@ -138,6 +140,9 @@ margin-left: 90px;
 .help i{
   margin-top: 9px;
   margin-right: 10px;
+}
+#lang{
+  margin-top: 9px;
 }
 .location{
   font-family: 'Tajawal', sans-serif;
@@ -715,7 +720,7 @@ li img{
 }
 
 hr{
-  width: 290px;
+  width: 280px;
   border: 0.3px solid#7A8498;
 }
 
